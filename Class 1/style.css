@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cards-section {
+    background-color: #e8a87c;
+    padding: 100px;
+}
+
+.cards-section .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background: url('https://source.unsplash.com/400x200/?programing') no-repeat;
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    border: lightgray solid 1px;
+    margin: auto;
+}
+
+.card-middle{
+    margin: 220px 0px 30px 20px;
+}
+
+.card-middle p {
+    color: grey;
+}
+
+.card-bottom {
+    display: flex;
+    border-top: lightgray 1px solid;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card-bottom img {
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.card-bottom button {
+    font-weight: bold;
+    background-color: #9DF9EF;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 0px 20px;
+}
+
+.icons p i {
+    color: #9DF9EF;
+}

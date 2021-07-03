@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: auto;
+            width: 80%;
+        }
+
+        .header {
+            max-width: 60%;
+            text-align: justify;
+            margin-bottom: 50px;
+        }
+
+        .flex-columns .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .flex-columns .column {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex: 1;
+        }
+
+        .flex-columns .column .column-1,
+        .flex-columns .column .column-2 {
+            height: 100%;
+        }
+
+        .flex-columns img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .flex-columns .column-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .flex-columns.flex-reverse .row {
+            flex-direction: row-reverse;
+        }
+
+        .btn {
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 30px;
+            color: #fff;
+            background-color: #C68B59;
+            border: none;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptates debitis, asperiores sunt at temporibus suscipit aliquid illo quam quidem blanditiis beatae ipsam maiores magnam modi voluptatum? Nihil, ratione facere!</p>
+        </div>
+    </div>
+
+    <section class="solutions flex-columns">
+        <div class="row">
+            <div class="column">
+                <div class="column-1">
+                    <img class="slika-left" src="https://source.unsplash.com/WLUHO9A_xik/1280x720
+                    " alt="slikarandom">
+                </div>
+            </div>
+            <div class="column">
+                <div class="column-2">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione facilis nihil corrupti consequuntur ipsam quis labore sequi ex modi!</p>
+                    <a href="#" class="btn">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="solutions flex-columns flex-reverse">
+        <div class="row">
+            <div class="column">
+                <div class="column-1">
+                    <img class="slika-left" src="https://source.unsplash.com/WLUHO9A_xik/1280x720
+                    " alt="slikarandom">
+                </div>
+            </div>
+            <div class="column">
+                <div class="column-2">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione facilis nihil corrupti consequuntur ipsam quis labore sequi ex modi!</p>
+                    <a href="#" class="btn">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+</body>
+</html>
